@@ -11,5 +11,5 @@ $ docker build -t helloworld .
 $ docker run helloworld
 ```
 ## Tech
- - [Python code]
- - [Docker]
+ [Python]
+ [Docker]
