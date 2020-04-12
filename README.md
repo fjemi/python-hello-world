@@ -11,5 +11,5 @@ $ docker build -t helloworld .
 $ docker run helloworld
 ```
 ## Tech
- [Python]
- [Docker]
+ [Python](https://python.org)
+ [Docker](https://docker.com)
