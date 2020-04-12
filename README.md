@@ -2,7 +2,7 @@
 This is a template for deploying a Python script in a Docker image.
 
 ## Usage
-Clone the repository, navigate the repository's root directory, and build and 
+Clone the repo, and navigate to the root directory of the repo. Then build and 
 run the Docker image.
 ```sh
 $ git clone https://github.com/fjemi/python-hello-world.git helloworld
