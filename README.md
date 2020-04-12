@@ -10,6 +10,9 @@ $ cd helloworld
 $ docker build -t helloworld .
 $ docker run helloworld
 ```
-## Tech
- [Python](https://python.org)
- [Docker](https://docker.com)
+## Tech Stack
+[Python](https://python.org) 
+
+[FstAPI](https://fastapi.tiangolo.com/)
+
+[Docker](https://docker.com)
