@@ -1,8 +1,15 @@
 # Hello World
-This is a simple template for deploying a Python script within a Docker image.
+This is a template for deploying a Python script in a Docker image.
 
-
-
-This projects demostrates:
- - Python code
- - Docker
+## Usage
+Clone the repository, navigate the repository's root directory, and build and 
+run the Docker image.
+```sh
+$ git clone https://github.com/fjemi/python-hello-world.git helloworld
+$ cd helloworld
+$ docker build -t helloworld .
+$ docker run helloworld
+```
+## Tech
+ - [Python code]
+ - [Docker]
