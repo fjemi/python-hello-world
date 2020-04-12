@@ -6,7 +6,7 @@ ADD helloworld.py /tmp/
 
 # Additional commands to execute image
 RUN pip install pipenv
-COPY Pipfile /tmp/
+COPY Pipfile* /tmp/
 RUN cd /tmp && pipenv lock --requirements > /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 
